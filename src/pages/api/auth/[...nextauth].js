@@ -8,8 +8,8 @@ export default NextAuth({
   },
   providers: [
     GoogleProvider({
-      clientId: "907677598391-95vummkg3983m58scqgg522mikqvvmec.apps.googleusercontent.com",
-      clientSecret: "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",
+      clientId: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_ID,
       authorization: {
         params: {
           scope: 'openid https://www.googleapis.com/auth/drive', // Adjust scopes as needed

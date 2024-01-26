@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aws-sdk": "^2.1543.0",
     "gapi-script": "^1.2.0",
     "google-api-javascript-client": "^0.1.0",
+    "googleapis": "39",
     "next": "14.1.0",
     "next-auth": "^4.24.5",
     "react": "^18",
